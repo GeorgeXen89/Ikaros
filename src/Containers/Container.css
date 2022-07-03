@@ -1,0 +1,10 @@
+.navbar{
+    height: 200px;
+    width: 1000px;
+    border: 1px solid rgb(49, 12, 211);
+    position: sticky;
+    top: 0;
+    background-color: rgb(49, 12, 211);
+    display: flex;
+    width: 100%;
+}
