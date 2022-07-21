@@ -4,11 +4,9 @@ import "./sima.css";
 
 function Sima() {
   return (
-    <nav class="navbar bg-light">
-      <div className="header">
-        <img src={logo} />
-      </div>
-    </nav>
+    <div className="sima">
+      <img src={logo} lt="" width="90" height="72" />
+    </div>
   );
 }
 

@@ -1,16 +1,12 @@
-
-import Container from './Containers/Container';
+import Container from "./Containers/Container";
+import Store from "./Containers/Store/Store";
 
 function App() {
-  
-
   return (
     <div>
-      <Container/>
+      <Container />
     </div>
-      
-  
-    )};
-
+  );
+}
 
 export default App;

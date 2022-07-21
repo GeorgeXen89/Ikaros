@@ -1,0 +1,50 @@
+.basket-titlos {
+  color: #1840c2;
+  font-family: "Brush Script MT", cursive;
+  margin: 20px auto;
+  width: 450px;
+  font-size: 3rem;
+  text-align: center;
+  border-bottom: 10px double #3e10c8;
+}
+
+.image-basket {
+  width: 450px;
+  height: 300px;
+  margin: 10px;
+  border: 10px solid #fefae0;
+  -webkit-filter: sepia(100%);
+  filter: sepia(100%);
+  transition-duration: 1s;
+}
+
+.image-basket:hover {
+  border: 5px solid #fff;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-filter: none;
+  filter: none;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.container-basket {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  width: 100%;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.basket-body {
+  background-color: #cccccc;
+}

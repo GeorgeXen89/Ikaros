@@ -1,0 +1,19 @@
+.column-akri {
+  width: 25%;
+  float: left;
+  padding: 10px;
+  height: 300px;
+}
+
+.column-kentro {
+  width: 50%;
+  float: left;
+  padding: 10px;
+  height: 300px;
+}
+
+.row-home:after {
+  content: "";
+  display: table;
+  clear: both;
+}

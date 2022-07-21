@@ -1,5 +1,47 @@
-.header-ikaros{
-    padding: 10%;
-    display: flex;
-    width: 50%;
+.nav-item {
+  color: aliceblue;
+  margin-right: 60px;
 }
+
+.d-flex {
+  margin: 0 0 0 0;
+  padding-left: 10%;
+}
+
+.link-s {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.fa {
+  font-size: 2em;
+}
+.fa-facebook-square {
+  color: #3b5998;
+  background-image: linear-gradient(
+    to bottom,
+    transparent 20%,
+    white 20%,
+    white 93%,
+    transparent 93%
+  );
+  background-size: 55%;
+  background-position: 70% 0;
+  background-repeat: no-repeat;
+}
+
+.ikaros-leksi {
+  font-family: "Brush Script MT", cursive;
+  font-style: italic;
+  font-size: 2.5em;
+  color: aliceblue;
+  font-weight: bolder;
+}
+
+/* .dropdown-item {
+  color: aliceblue;
+}
+
+.btn-group {
+  color: aliceblue;
+} */

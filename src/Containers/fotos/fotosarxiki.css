@@ -1,0 +1,32 @@
+.container-arxiki-eikones {
+  position: relative;
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.eikona {
+  width: 100%;
+  height: auto;
+  padding: 5%;
+}
+
+.btneikones {
+  padding: 10px;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(84, 88, 203);
+  color: white;
+  font-size: 50px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btneikones :hover {
+  background-color: black;
+}
